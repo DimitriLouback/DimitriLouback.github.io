@@ -3,8 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <title>ex1</title>
+    <style>
+        table, th, tr, td {
+            border: 2px solid green
+        }
+    </style>
 </head>
 <body>
-<a href="/DimitriLouback.github.io/curso/index.html">Voltar para home</a>
+
+<h1>Tabelas</h1>
+
+<h2> Célula com 2 colunas</h2>
+
+<table>
+    <tr>
+        <th>Nome</th>
+        <th colspan="2">Telefone</th>
+    </tr>
+    <tr>
+        <td>José das Colves</td>
+        <td>(22)999999999</td>
+        <td>(22)999999999</td>
+    </tr>
+
+</table>
+
+<h2> Célula com 2 linhas:</h2>
+
+<table>
+    <tr>
+        <th>Nome</th>
+        <td>José das Colves</td>
+    </tr>
+    <tr>
+        <th rowspan="2">Telefone</th>
+        <td>222222</td>
+    </tr>
+    <tr>
+        <td>99999</td>
+    </tr>
+</table>
+
+<h2>Tabela com Legenda</h2>
+
+<table>
+    <caption>
+        Tabela de despesas por mês
+    </caption>
+
+    <tr>
+        <th>Mês</th>
+        <th>Total</th>
+    </tr>
+    <tr>
+        <td>Janeiro</td>
+        <td>R$ 1.500,00</td>
+    </tr>
+    <tr>
+        <td>Fevereiro</td>
+        <td>R$ 1,470,00</td>
+    </tr>
+</table>
+
+<br>
+<a href="/curso/curso/index.html">Voltar para home</a>
+
 </body>
 </html>
